@@ -37,7 +37,7 @@ public class Retangulo implements AreaCalculavel{
 	public void calcularArea(){
 		
 		this.resultado = this.base * this.altura;
-		System.out.printf("Area do Retangulo:%.2f\n", this.resultado);
+		System.out.printf("Area do Retangulo: %.2f\n", this.resultado);
 	}
 	
 }

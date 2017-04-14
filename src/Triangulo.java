@@ -37,7 +37,7 @@ public class Triangulo implements AreaCalculavel {
 	public void calcularArea(){
 
 		this.resultado = (this.base * this.altura)/2;
-		System.out.printf("Area do Triangulo:%.2f\n", this.resultado);
+		System.out.printf("Area do Triangulo: %.2f\n", this.resultado);
 		
 	}
 
